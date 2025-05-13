@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BuildRiser Construction: Premier construction services specializing in RCC, tiling, plumbing, and more.">
+  <meta name="keywords" content="construction, RCC, tiling, plumbing, electrical, waterproofing, building services">
+  <meta name="author" content="BuildRiser Construction">
+  <title data-i18n="title">BuildRiser Construction | Premier Building Services</title>
+  <!-- Google Fonts: Roboto, Noto Sans Gujarati, Noto Sans Devanagari -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Noto+Sans+Gujarati:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- Top Notice -->
+  <div id="top-notice" data-i18n="top_notice">
+    Serving Surat Areas Only
+    <span class="close-btn">×</span>
+  </div>    
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-logo">
+      <img src="https://via.placeholder.com/150x50?text=BuildRiser+Logo" alt="BuildRiser Construction Logo">
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" data-i18n="nav_home">Home</a></li>
+      <li><a href="#about" data-i18n="nav_about">About</a></li>
+      <li><a href="#workers" data-i18n="nav_workers">Workers</a></li>
+      <li><a href="#experience" data-i18n="nav_experience">Experience</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <div class="language-selector">
+      <select id="language" aria-label="Select Language">
+        <option value="en" data-i18n="lang_en">English</option>
+        <option value="gu" data-i18n="lang_gu">Gujarati</option>
+        <option value="hi" data-i18n="lang_hi">Hindi</option>
+      </select>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="hero-content">
+      <h1 data-i18n="home_title">Build Your Future with BuildRiser Construction</h1>
+      <p data-i18n="home_subtitle">Premier Construction Services</p>
+      <a href="#contact" class="cta-button" data-i18n="home_cta">Get a Quote</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-content">
+      <h2 data-i18n="about_title">About Us</h2>
+      <p data-i18n="about_text">Established in 1995, BuildRiser Construction is the trusted name in construction for Surat areas. We specialize in delivering innovative, high-quality projects for residential and commercial clients, with a commitment to precision, safety, and client satisfaction.</p>
+    </div>
+    <img src="https://via.placeholder.com/600x400?text=Team+Photo" alt="BuildRiser Construction team">
+  </section>
+
+  <!-- Workers Section -->
+  <section id="workers">
+    <h2 data-i18n="workers_title">Our Skilled Team</h2>
+    <div class="worker-grid">
+      <div class="worker-card">
+        <img src="https://via.placeholder.com/300x200?text=Worker+1" alt="John Doe, Mason">
+        <div class="worker-info">
+          <h3 data-i18n="worker_1_name">John Doe</h3>
+          <p data-i18n="worker_1_role">Mason</p>
+        </div>
+        <div class="worker-details">
+          <p data-i18n="worker_1_details">15 years of expertise in brick and block masonry, ensuring robust structures.</p>
+        </div>
+      </div>
+      <div class="worker-card">
+        <img src="https://via.placeholder.com/300x200?text=Worker+2" alt="Jane Smith, Electrician">
+        <div class="worker-info">
+          <h3 data-i18n="worker_2_name">Jane Smith</h3>
+          <p data-i18n="worker_2_role">Electrician</p>
+        </div>
+        <div class="worker-details">
+          <p data-i18n="worker_2_details">Delivers safe and efficient electrical installations for homes and businesses.</p>
+        </div>
+      </div>
+      <div class="worker-card">
+        <img src="https://via.placeholder.com/300x200?text=Worker+3" alt="Mike Johnson, Tiler">
+        <div class="worker-info">
+          <h3 data-i18n="worker_3_name">Mike Johnson</h3>
+          <p data-i18n="worker_3_role">Tiler</p>
+        </div>
+        <div class="worker-details">
+          <p data-i18n="worker_3_details">Specializes in precision tiling, enhancing homes with stunning finishes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2 data-i18n="experience_title">Our Services</h2>
+    <div class="service-category">
+      <h3 data-i18n="service_core_title">Core Construction Work</h3>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_rcc">RCC Work</strong>
+            <p data-i18n="service_rcc_desc">Reinforced concrete for durable structures.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_tiles">Tiles</strong>
+            <p data-i18n="service_tiles_desc">Expert tile installation for floors and walls.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-tractor"></i>
+          <div>
+            <strong data-i18n="service_site_clearing">Site Clearing & Marking</strong>
+            <p data-i18n="service_site_clearing_desc">Precise site preparation for construction.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_pcc">PCC (Plain Cement Concrete)</strong>
+            <p data-i18n="service_pcc_desc">Strong base layers for stability.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-hard-hat"></i>
+          <div>
+            <strong data-i18n="service_footing">Footing Work</strong>
+            <p data-i18n="service_footing_desc">Robust footings for structural integrity.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_rcc_foundation">RCC Foundation & Plinth Beam</strong>
+            <p data-i18n="service_rcc_foundation_desc">Reinforced foundations for support.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_rcc_columns">RCC Columns</strong>
+            <p data-i18n="service_rcc_columns_desc">Strong columns for vertical strength.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-brick"></i>
+          <div>
+            <strong data-i18n="service_masonry">Brick/Block Masonry</strong>
+            <p data-i18n="service_masonry_desc">Precision masonry for walls and structures.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_rcc_slabs">RCC Slabs (Roof Casting)</strong>
+            <p data-i18n="service_rcc_slabs_desc">Durable roof slabs for buildings.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-stairs"></i>
+          <div>
+            <strong data-i18n="service_staircase">Staircase Construction</strong>
+            <p data-i18n="service_staircase_desc">Custom staircases for safety and design.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-brick"></i>
+          <div>
+            <strong data-i18n="service_wall_construction">Brick/Block Wall Construction</strong>
+            <p data-i18n="service_wall_construction_desc">Internal and external walls with precision.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_lintel">Lintel & Chajja Casting</strong>
+            <p data-i18n="service_lintel_desc">Concrete lintels and sunshades for support.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-water"></i>
+          <div>
+            <strong data-i18n="service_curing">Curing</strong>
+            <p data-i18n="service_curing_desc">Proper curing for concrete strength.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-shield-alt"></i>
+          <div>
+            <strong data-i18n="service_foundation_waterproofing">Foundation Waterproofing</strong>
+            <p data-i18n="service_foundation_waterproofing_desc">Protecting foundations from water damage.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-shield-alt"></i>
+          <div>
+            <strong data-i18n="service_roof_waterproofing">Roof Slab Waterproofing</strong>
+            <p data-i18n="service_roof_waterproofing_desc">Leak-proof roof slabs.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-shield-alt"></i>
+          <div>
+            <strong data-i18n="service_bathroom_waterproofing">Bathroom & Kitchen Waterproofing</strong>
+            <p data-i18n="service_bathroom_waterproofing_desc">Waterproofing for wet areas.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-shield-alt"></i>
+          <div>
+            <strong data-i18n="service_tank_waterproofing">Water Tank Waterproofing</strong>
+            <p data-i18n="service_tank_waterproofing_desc">Leak-proof water storage solutions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-category">
+      <h3 data-i18n="service_professional_title">Professional Work</h3>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_floor_tiles">Floor Tile Laying</strong>
+            <p data-i18n="service_floor_tiles_desc">Vitrified, ceramic, granite, or marble tiles.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-stairs"></i>
+          <div>
+            <strong data-i18n="service_staircase_tiles">Staircase Tiles/Granite</strong>
+            <p data-i18n="service_staircase_tiles_desc">Stylish staircase finishes.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_skirting">Skirting Work</strong>
+            <p data-i18n="service_skirting_desc">Neat skirting for floor-wall transitions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-category">
+      <h3 data-i18n="service_extra_title">Extra Work</h3>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-pipe-valve"></i>
+          <div>
+            <strong data-i18n="service_underground_plumbing">Underground Plumbing</strong>
+            <p data-i18n="service_underground_plumbing_desc">Water and sewage line installations.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-pipe-valve"></i>
+          <div>
+            <strong data-i18n="service_internal_plumbing">Internal Plumbing</strong>
+            <p data-i18n="service_internal_plumbing_desc">Plumbing for bathrooms and kitchens.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-water"></i>
+          <div>
+            <strong data-i18n="service_water_tank">Water Tank Setup</strong>
+            <p data-i18n="service_water_tank_desc">Overhead or underground tank installations.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-water"></i>
+          <div>
+            <strong data-i18n="service_sump_borewell">Water Sump/Borewell Connection</strong>
+            <p data-i18n="service_sump_borewell_desc">Efficient water supply connections.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-category">
+      <h3 data-i18n="service_electrical_title">Electrical Work</h3>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-bolt"></i>
+          <div>
+            <strong data-i18n="service_conduits">Conduits & Wiring</strong>
+            <p data-i18n="service_conduits_desc">Safe and efficient electrical wiring.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-plug"></i>
+          <div>
+            <strong data-i18n="service_switchboards">Switchboards & DB</strong>
+            <p data-i18n="service_switchboards_desc">Installation of switchboards and distribution boards.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-shield-alt"></i>
+          <div>
+            <strong data-i18n="service_earthing">Earthing & Lightning Protection</strong>
+            <p data-i18n="service_earthing_desc">Safety systems for electrical protection.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-lightbulb"></i>
+          <div>
+            <strong data-i18n="service_electrical_points">Light, Fan, AC Point Installation</strong>
+            <p data-i18n="service_electrical_points_desc">Complete electrical point setups.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-category">
+      <h3 data-i18n="service_interior_title">Interior Finishing (Optional)</h3>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-ceiling-fan"></i>
+          <div>
+            <strong data-i18n="service_false_ceiling">False Ceiling</strong>
+            <p data-i18n="service_false_ceiling_desc">Modern false ceilings for aesthetics.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-kitchen-set"></i>
+          <div>
+            <strong data-i18n="service_modular_kitchen">Modular Kitchen</strong>
+            <p data-i18n="service_modular_kitchen_desc">Custom modular kitchen designs.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-closet"></i>
+          <div>
+            <strong data-i18n="service_wardrobes">Wardrobes</strong>
+            <p data-i18n="service_wardrobes_desc">Functional and stylish wardrobe solutions.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-wall-brick"></i>
+          <div>
+            <strong data-i18n="service_wall_cladding">Wall Cladding</strong>
+            <p data-i18n="service_wall_cladding_desc">Decorative wall cladding for interiors.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-trowel"></i>
+          <div>
+            <strong data-i18n="service_interior_tiling">Interior Tiling/Wallpapers</strong>
+            <p data-i18n="service_interior_tiling_desc">Stylish tiling and wallpaper installations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-category">
+      <h3 data-i18n="service_sanitary_title">Sanitary Fittings</h3>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-sink"></i>
+          <div>
+            <strong data-i18n="service_washbasins">Washbasins, Water Closets</strong>
+            <p data-i18n="service_washbasins_desc">High-quality sanitary installations.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-sink"></i>
+          <div>
+            <strong data-i18n="service_kitchen_sink">Kitchen Sink</strong>
+            <p data-i18n="service_kitchen_sink_desc">Durable kitchen sink setups.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-shower"></i>
+          <div>
+            <strong data-i18n="service_shower_taps">Bathroom Shower & Taps</strong>
+            <p data-i18n="service_shower_taps_desc">Modern shower and tap fittings.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-faucet"></i>
+          <div>
+            <strong data-i18n="service_geyser">Geyser, Mixer Taps</strong>
+            <p data-i18n="service_geyser_desc">Efficient geyser and mixer installations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-category">
+      <h3 data-i18n="service_final_title">Final Touchups & Handover</h3>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-broom"></i>
+          <div>
+            <strong data-i18n="service_cleaning">Cleaning</strong>
+            <p data-i18n="service_cleaning_desc">Thorough site cleaning post-construction.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-clipboard-check"></i>
+          <div>
+            <strong data-i18n="service_inspection">Final Inspection</strong>
+            <p data-i18n="service_inspection_desc">Comprehensive quality checks.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-tools"></i>
+          <div>
+            <strong data-i18n="service_rectifications">Rectifications</strong>
+            <p data-i18n="service_rectifications_desc">Addressing any snag list items.</p>
+          </div>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-key"></i>
+          <div>
+            <strong data-i18n="service_handover">Handover to Owner</strong>
+            <p data-i18n="service_handover_desc">Seamless project handover.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 data-i18n="contact_title">Contact Us</h2>
+    <div class="contact-container">
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required aria-label="Name" data-i18n-placeholder="form_name">
+        <input type="email" id="email" placeholder="Your Email" required aria-label="Email" data-i18n-placeholder="form_email">
+        <input type="tel" id="phone" placeholder="Your Phone" required aria-label="Phone" data-i18n-placeholder="form_phone">
+        <textarea id="message" placeholder="Your Message" rows="5" required aria-label="Message" data-i18n-placeholder="form_message"></textarea>
+        <button type="submit" data-i18n="form_submit">Submit</button>
+      </form>
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> <span data-i18n="contact_phone">123-456-7890</span></p>
+        <p><i class="fas fa-envelope"></i> <span data-i18n="contact_email">info@buildriser.com</span></p>
+        <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="contact_address">123 Construction Lane, Surat</span></p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="map-placeholder" role="img" aria-label="Map showing location"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Link to external JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
