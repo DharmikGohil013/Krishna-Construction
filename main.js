@@ -1,7 +1,7 @@
 // Translation Data
 const translations = {
     en: {
-      title: "BuildRiser Construction | Premier Building Services",
+      title: "Krishna Construction | Premier Building Services",
       top_notice: "Serving Surat Areas Only",
       nav_home: "Home",
       nav_about: "About",
@@ -151,15 +151,7 @@ const translations = {
       about_title: "અમારા વિશે",
       about_text: "1995માં સ્થપાયેલ, બિલ્ડરાઇઝર કન્સ્ટ્રક્શન સુરતના વિસ્તારો માટે બાંધકામમાં વિશ્વસનીય નામ છે. અમે નવીન, ઉચ્ચ-ગુણવત્તાયુક્ત પ્રોજેક્ટ્સ પહોંચાડવામાં નિષ્ણાત છીએ, જેમાં ચોકસાઈ, સલામતી અને ગ્રાહક સંતોષ પ્રત્યે પ્રતિબદ્ધતા છે.",
       workers_title: "અમારી કુશળ ટીમ",
-      worker_1_name: "જોન ડો",
-      worker_1_role: "મેસન",
-      worker_1_details: "ઇંટ અને બ્લોક મેસનરીમાં 15 વર્ષની નિપુણતા, મજબૂત બાંધકામની ખાતરી.",
-      worker_2_name: "જેન સ્મિથ",
-      worker_2_role: "ઇલેક્ટ્રિશિયન",
-      worker_2_details: "ઘરો અને વ્યવસાયો માટે સલામત અને કાર્યક્ષમ ઇલેક્ટ્રિકલ ઇન્સ્ટોલેશન.",
-      worker_3_name: "માઇક જોન્સન",
-      worker_3_role: "ટાઇલર",
-      worker_3_details: "ચોકસાઈવાળી ટાઇલિંગમાં નિષ્ણાત, ઘરોને શાનદાર ફિનિશિંગ આપે છે.",
+      
       experience_title: "અમારી સેવાઓ",
       service_core_title: "મૂળ બાંધકામ કાર્ય",
       service_rcc: "આરસીસી કાર્ય",
@@ -277,15 +269,7 @@ const translations = {
       about_title: "हमारे बारे में",
       about_text: "1995 में स्थापित, बिल्डराइज़र कंस्ट्रक्शन सूरत क्षेत्रों के लिए निर्माण में भरोसेमंद नाम है। हम आवासीय और वाणिज्यिक ग्राहकों के लिए नवीन, उच्च-गुणवत्ता वाले प्रोजेक्ट्स देने में विशेषज्ञ हैं, जो सटीकता, सुरक्षा और ग्राहक संतुष्टि के प्रति प्रतिबद्ध हैं।",
       workers_title: "हमारी कुशल टीम",
-      worker_1_name: "जॉन डो",
-      worker_1_role: "मेसन",
-      worker_1_details: "ईंट और ब्लॉक मेसनरी में 15 वर्षों की विशेषज्ञता, मजबूत संरचनाएँ सुनिश्चित करती है।",
-      worker_2_name: "जेन स्मिथ",
-      worker_2_role: "इलेक्ट्रीशियन",
-      worker_2_details: "घरों और व्यवसायों के लिए सुरक्षित और कुशल इलेक्ट्रिकल इंस्टॉलेशन प्रदान करती है।",
-      worker_3_name: "माइक जॉनसन",
-      worker_3_role: "टाइलर",
-      worker_3_details: "सटीक टाइलिंग में विशेषज्ञ, घरों को शानदार फिनिशिंग देता है।",
+      
       experience_title: "हमारी सेवाएँ",
       service_core_title: "मूल निर्माण कार्य",
       service_rcc: "आरसीसी कार्य",
