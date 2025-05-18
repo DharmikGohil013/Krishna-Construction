@@ -456,6 +456,25 @@
       </div>
     </div>
   </section>
+  <!-- Loader Start -->
+<div id="loader" class="loader-bg">
+  <div class="loader-content">
+    <div class="crane">
+      <div class="crane-arm"></div>
+      <div class="crane-hook"></div>
+      <div class="crane-rope"></div>
+      <div class="crane-body"></div>
+    </div>
+    <div class="loader-bricks">
+      <div class="brick"></div>
+      <div class="brick"></div>
+      <div class="brick"></div>
+    </div>
+    <p class="loader-text">Building Your Future...</p>
+  </div>
+</div>
+<!-- Loader End -->
+
 
   <!-- Link to external JavaScript -->
  
@@ -490,6 +509,15 @@
     });
   });
 </script>
+<script>
+  // Hide loader when page is fully loaded
+  window.addEventListener('load', function() {
+    const loader = document.getElementById('loader');
+    loader.classList.add('fade-out');
+    setTimeout(() => loader.style.display = 'none', 900);
+  });
+</script>
+
  <script src="main.js"></script>
 </body>
 </html>
