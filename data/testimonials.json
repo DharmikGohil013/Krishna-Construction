@@ -1,0 +1,190 @@
+{
+  "testimonials": [
+    {
+      "id": "test-001",
+      "name": "Rajesh Patel",
+      "role": "Homeowner",
+      "location": "Adajan, Surat",
+      "project": "Luxury Villa Construction",
+      "rating": 5,
+      "image": "img/testimonials/rajesh-patel.jpg",
+      "date": "2024-12-15",
+      "text": "Krishna Construction built our dream home with exceptional quality. Their attention to detail and professionalism is unmatched. The entire team was courteous, and they completed the project within the promised timeline. Highly recommended for anyone looking for quality construction work!",
+      "featured": true
+    },
+    {
+      "id": "test-002",
+      "name": "Priya Shah",
+      "role": "Business Owner",
+      "location": "Vesu, Surat",
+      "project": "Apartment Renovation",
+      "rating": 5,
+      "image": "img/testimonials/priya-shah.jpg",
+      "date": "2024-11-05",
+      "text": "They transformed our old apartment into a beautiful modern home. The renovation was completed smoothly without much hassle. The team was very professional and always kept us updated about the progress. Amazing work!",
+      "featured": true
+    },
+    {
+      "id": "test-003",
+      "name": "Amit Desai",
+      "role": "Homeowner",
+      "location": "Vesu, Surat",
+      "project": "Bungalow Construction",
+      "rating": 5,
+      "image": "img/testimonials/amit-desai.jpg",
+      "date": "2024-08-10",
+      "text": "Our dream home became a reality thanks to Krishna Construction. The waterproofing work done has lasted for years without any issues. Superb craftsmanship and great value for money! The team was always available to address our concerns.",
+      "featured": true
+    },
+    {
+      "id": "test-004",
+      "name": "Varachha Developers",
+      "role": "Real Estate Developer",
+      "location": "Varachha, Surat",
+      "project": "Commercial Complex",
+      "rating": 5,
+      "image": "img/testimonials/company-logo-1.jpg",
+      "date": "2024-10-20",
+      "text": "Professional team, timely delivery, and excellent quality. We have worked with many contractors, but Krishna Construction stands out for their commitment to quality and deadlines. Highly recommended for commercial projects!",
+      "featured": false
+    },
+    {
+      "id": "test-005",
+      "name": "Kiran Patel",
+      "role": "Homeowner",
+      "location": "City Light, Surat",
+      "project": "Duplex House",
+      "rating": 5,
+      "image": "img/testimonials/kiran-patel.jpg",
+      "date": "2023-11-20",
+      "text": "Every detail was handled perfectly. From the initial planning to the final handover, the experience was smooth. The quality of materials used and the finishing work exceeded our expectations. Worth every penny spent!",
+      "featured": false
+    },
+    {
+      "id": "test-006",
+      "name": "Green Valley Developers",
+      "role": "Real Estate Developer",
+      "location": "Pal, Surat",
+      "project": "Residential Society",
+      "rating": 5,
+      "image": "img/testimonials/company-logo-2.jpg",
+      "date": "2023-12-30",
+      "text": "Best construction company in Surat! We partnered with Krishna Construction for our 24-unit residential project, and they delivered exceptional results. Quality work and professional approach throughout the project duration.",
+      "featured": false
+    },
+    {
+      "id": "test-007",
+      "name": "Textile Industries Ltd.",
+      "role": "Industrial Client",
+      "location": "Sachin GIDC, Surat",
+      "project": "Industrial Warehouse",
+      "rating": 5,
+      "image": "img/testimonials/company-logo-3.jpg",
+      "date": "2024-09-15",
+      "text": "Completed our 35,000 sq ft warehouse on time with no compromise on quality. The structural strength and attention to industrial requirements was impressive. Excellent service and very professional team!",
+      "featured": false
+    },
+    {
+      "id": "test-008",
+      "name": "Tech Solutions Pvt. Ltd.",
+      "role": "Corporate Client",
+      "location": "Ring Road, Surat",
+      "project": "Office Renovation",
+      "rating": 5,
+      "image": "img/testimonials/company-logo-4.jpg",
+      "date": "2024-07-25",
+      "text": "Fast completion without disrupting our operations. The team worked during weekends to ensure minimal impact on our business. The modern office space they created has significantly improved our work environment. Very professional!",
+      "featured": false
+    },
+    {
+      "id": "test-009",
+      "name": "Mehul Shah",
+      "role": "Homeowner",
+      "location": "Piplod, Surat",
+      "project": "Home Construction",
+      "rating": 5,
+      "image": "img/testimonials/mehul-shah.jpg",
+      "date": "2023-08-15",
+      "text": "Great experience from start to finish. The team was very responsive to all our requirements and suggestions. They used quality materials and the finishing work was excellent. Would definitely recommend Krishna Construction!",
+      "featured": false
+    },
+    {
+      "id": "test-010",
+      "name": "Neha Patel",
+      "role": "Homeowner",
+      "location": "Adajan, Surat",
+      "project": "Kitchen Renovation",
+      "rating": 5,
+      "image": "img/testimonials/neha-patel.jpg",
+      "date": "2024-05-20",
+      "text": "Our modular kitchen turned out beautiful! The design team helped us optimize the space perfectly. The installation was clean and efficient. Very happy with the quality of work and materials used.",
+      "featured": false
+    },
+    {
+      "id": "test-011",
+      "name": "Jayesh Desai",
+      "role": "Homeowner",
+      "location": "Vesu, Surat",
+      "project": "Waterproofing Work",
+      "rating": 5,
+      "image": "img/testimonials/jayesh-desai.jpg",
+      "date": "2024-03-10",
+      "text": "Excellent waterproofing service! We had leakage issues for years, and Krishna Construction fixed everything perfectly. It's been 6 months and not a single drop of water. Professional and reliable service!",
+      "featured": false
+    },
+    {
+      "id": "test-012",
+      "name": "Ritu Sharma",
+      "role": "Homeowner",
+      "location": "Pal, Surat",
+      "project": "Bathroom Renovation",
+      "rating": 5,
+      "image": "img/testimonials/ritu-sharma.jpg",
+      "date": "2024-01-15",
+      "text": "The bathroom renovation was completed in just 3 weeks! The new tiles, fittings, and overall design look amazing. The team was very clean and organized. Highly satisfied with the work!",
+      "featured": false
+    },
+    {
+      "id": "test-013",
+      "name": "Bharat Industries",
+      "role": "Corporate Client",
+      "location": "Udhna, Surat",
+      "project": "Factory Flooring",
+      "rating": 5,
+      "image": "img/testimonials/company-logo-5.jpg",
+      "date": "2023-10-05",
+      "text": "Heavy-duty industrial flooring was done perfectly. Can handle our heavy machinery without any issues. Krishna Construction understood our industrial requirements very well. Great job!",
+      "featured": false
+    },
+    {
+      "id": "test-014",
+      "name": "Manish Patel",
+      "role": "Homeowner",
+      "location": "City Light, Surat",
+      "project": "Complete House Construction",
+      "rating": 5,
+      "image": "img/testimonials/manish-patel.jpg",
+      "date": "2023-06-20",
+      "text": "From foundation to finishing, everything was handled professionally. The quality of RCC work is excellent and gives us confidence in the structure. Thank you Krishna Construction for building our dream home!",
+      "featured": false
+    },
+    {
+      "id": "test-015",
+      "name": "Pooja Mehta",
+      "role": "Interior Designer",
+      "location": "Surat",
+      "project": "Multiple Projects",
+      "rating": 5,
+      "image": "img/testimonials/pooja-mehta.jpg",
+      "date": "2024-02-28",
+      "text": "As an interior designer, I've worked with Krishna Construction on multiple projects. Their team is always cooperative and delivers quality work. They understand design requirements well and execute perfectly. My go-to contractor!",
+      "featured": false
+    }
+  ],
+  "summary": {
+    "totalReviews": 15,
+    "averageRating": 5.0,
+    "fiveStarPercentage": 100,
+    "recommendationRate": 98
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "projects": [
+    {
+      "id": "luxury-villa-2024",
+      "title": "Modern Luxury Villa - Adajan",
+      "category": "Residential",
+      "location": "Adajan, Surat",
+      "date": "2024-12-15",
+      "status": "Completed",
+      "thumbnail": "img/projects/villa-adajan-thumb.jpg",
+      "images": [
+        "img/projects/villa-adajan-1.jpg",
+        "img/projects/villa-adajan-2.jpg",
+        "img/projects/villa-adajan-3.jpg",
+        "img/projects/villa-adajan-4.jpg"
+      ],
+      "description": "A stunning 4-bedroom luxury villa featuring modern architecture, premium finishes, and smart home integration. This project showcases our expertise in high-end residential construction with meticulous attention to detail.",
+      "features": [
+        "RCC Construction",
+        "Waterproofing",
+        "Premium Tiling",
+        "Modular Kitchen",
+        "False Ceiling",
+        "Electrical Work",
+        "Plumbing",
+        "Interior Finishing"
+      ],
+      "duration": "8 months",
+      "area": "3500 sq ft",
+      "budget": "₹75-80 Lakhs",
+      "client": "Mr. Rajesh Patel",
+      "testimonial": "Krishna Construction exceeded our expectations. The quality of work and attention to detail is exceptional!"
+    },
+    {
+      "id": "commercial-complex-2024",
+      "title": "Commercial Shopping Complex",
+      "category": "Commercial",
+      "location": "Varachha, Surat",
+      "date": "2024-10-20",
+      "status": "Completed",
+      "thumbnail": "img/projects/commercial-varachha-thumb.jpg",
+      "images": [
+        "img/projects/commercial-varachha-1.jpg",
+        "img/projects/commercial-varachha-2.jpg",
+        "img/projects/commercial-varachha-3.jpg"
+      ],
+      "description": "A modern 3-story commercial complex with 15 retail spaces, featuring state-of-the-art facilities, ample parking, and energy-efficient design.",
+      "features": [
+        "RCC Structure",
+        "Foundation Work",
+        "Waterproofing",
+        "Commercial Tiling",
+        "Electrical Systems",
+        "Plumbing Network",
+        "Fire Safety Systems",
+        "Parking Area"
+      ],
+      "duration": "12 months",
+      "area": "25,000 sq ft",
+      "budget": "₹2.5-3 Crores",
+      "client": "Varachha Developers Pvt. Ltd.",
+      "testimonial": "Professional team, timely delivery, and excellent quality. Highly recommended!"
+    },
+    {
+      "id": "apartment-renovation-2024",
+      "title": "Luxury Apartment Renovation",
+      "category": "Renovation",
+      "location": "Vesu, Surat",
+      "date": "2024-11-05",
+      "status": "Completed",
+      "thumbnail": "img/projects/apartment-vesu-thumb.jpg",
+      "images": [
+        "img/projects/apartment-vesu-before.jpg",
+        "img/projects/apartment-vesu-after.jpg",
+        "img/projects/apartment-vesu-kitchen.jpg"
+      ],
+      "description": "Complete renovation of a 2BHK apartment transforming it into a contemporary living space with modern amenities and smart storage solutions.",
+      "features": [
+        "Complete Demolition",
+        "Waterproofing",
+        "Vitrified Tiling",
+        "Modular Kitchen",
+        "Wardrobes",
+        "False Ceiling",
+        "Electrical Rewiring",
+        "Plumbing Updates"
+      ],
+      "duration": "3 months",
+      "area": "1200 sq ft",
+      "budget": "₹15-18 Lakhs",
+      "client": "Mrs. Priya Shah",
+      "testimonial": "They transformed our old apartment into a beautiful modern home. Amazing work!"
+    },
+    {
+      "id": "residential-society-2023",
+      "title": "Green Valley Residency",
+      "category": "Residential",
+      "location": "Pal, Surat",
+      "date": "2023-12-30",
+      "status": "Completed",
+      "thumbnail": "img/projects/society-pal-thumb.jpg",
+      "images": [
+        "img/projects/society-pal-1.jpg",
+        "img/projects/society-pal-2.jpg",
+        "img/projects/society-pal-3.jpg",
+        "img/projects/society-pal-4.jpg"
+      ],
+      "description": "A gated residential community with 24 premium apartments, featuring modern amenities, landscaped gardens, and 24/7 security.",
+      "features": [
+        "RCC Structure",
+        "Earthquake Resistant Design",
+        "Complete Waterproofing",
+        "Premium Tiles",
+        "Central Electrical System",
+        "Underground Plumbing",
+        "Rain Water Harvesting",
+        "Landscape Development"
+      ],
+      "duration": "18 months",
+      "area": "45,000 sq ft",
+      "budget": "₹8-10 Crores",
+      "client": "Green Valley Developers",
+      "testimonial": "Best construction company in Surat! Quality work and professional approach."
+    },
+    {
+      "id": "warehouse-construction-2024",
+      "title": "Industrial Warehouse",
+      "category": "Industrial",
+      "location": "Sachin GIDC, Surat",
+      "date": "2024-09-15",
+      "status": "Completed",
+      "thumbnail": "img/projects/warehouse-sachin-thumb.jpg",
+      "images": [
+        "img/projects/warehouse-sachin-1.jpg",
+        "img/projects/warehouse-sachin-2.jpg",
+        "img/projects/warehouse-sachin-3.jpg"
+      ],
+      "description": "Large-scale industrial warehouse with heavy-duty RCC structure, designed for textile manufacturing operations with proper ventilation and safety systems.",
+      "features": [
+        "Heavy RCC Structure",
+        "Foundation & Piling",
+        "Industrial Flooring",
+        "High-Capacity Electrical",
+        "Industrial Plumbing",
+        "Fire Safety Systems",
+        "Ventilation Systems",
+        "Loading Docks"
+      ],
+      "duration": "10 months",
+      "area": "35,000 sq ft",
+      "budget": "₹1.8-2 Crores",
+      "client": "Textile Industries Ltd.",
+      "testimonial": "Completed on time with no compromise on quality. Excellent service!"
+    },
+    {
+      "id": "bungalow-vesu-2024",
+      "title": "Contemporary Bungalow",
+      "category": "Residential",
+      "location": "Vesu, Surat",
+      "date": "2024-08-10",
+      "status": "Completed",
+      "thumbnail": "img/projects/bungalow-vesu-thumb.jpg",
+      "images": [
+        "img/projects/bungalow-vesu-1.jpg",
+        "img/projects/bungalow-vesu-2.jpg",
+        "img/projects/bungalow-vesu-pool.jpg",
+        "img/projects/bungalow-vesu-interior.jpg"
+      ],
+      "description": "Elegant 5-bedroom bungalow with swimming pool, home theater, and landscaped garden. A perfect blend of luxury and functionality.",
+      "features": [
+        "RCC Construction",
+        "Swimming Pool",
+        "Imported Tiles",
+        "Designer Kitchen",
+        "Home Automation",
+        "False Ceiling",
+        "Waterproofing",
+        "Landscape Design"
+      ],
+      "duration": "14 months",
+      "area": "5000 sq ft",
+      "budget": "₹1.2-1.5 Crores",
+      "client": "Mr. Amit Desai",
+      "testimonial": "Our dream home became a reality thanks to Krishna Construction. Superb craftsmanship!"
+    },
+    {
+      "id": "office-renovation-2024",
+      "title": "Corporate Office Renovation",
+      "category": "Renovation",
+      "location": "Ring Road, Surat",
+      "date": "2024-07-25",
+      "status": "Completed",
+      "thumbnail": "img/projects/office-ringroad-thumb.jpg",
+      "images": [
+        "img/projects/office-ringroad-1.jpg",
+        "img/projects/office-ringroad-2.jpg",
+        "img/projects/office-ringroad-lobby.jpg"
+      ],
+      "description": "Modern office space renovation with open-plan layout, meeting rooms, and contemporary design for a corporate IT company.",
+      "features": [
+        "Interior Demolition",
+        "Vitrified Flooring",
+        "False Ceiling",
+        "Partitions",
+        "Electrical Systems",
+        "HVAC Installation",
+        "Network Cabling",
+        "Glass Partitions"
+      ],
+      "duration": "2 months",
+      "area": "3000 sq ft",
+      "budget": "₹25-30 Lakhs",
+      "client": "Tech Solutions Pvt. Ltd.",
+      "testimonial": "Fast completion without disrupting our operations. Very professional team!"
+    },
+    {
+      "id": "duplex-house-2023",
+      "title": "Spacious Duplex House",
+      "category": "Residential",
+      "location": "City Light, Surat",
+      "date": "2023-11-20",
+      "status": "Completed",
+      "thumbnail": "img/projects/duplex-citylight-thumb.jpg",
+      "images": [
+        "img/projects/duplex-citylight-1.jpg",
+        "img/projects/duplex-citylight-2.jpg",
+        "img/projects/duplex-citylight-terrace.jpg"
+      ],
+      "description": "Beautiful 3BHK duplex with terrace garden, modern amenities, and energy-efficient features for a comfortable family living.",
+      "features": [
+        "RCC Structure",
+        "Waterproofing",
+        "Granite Flooring",
+        "Modular Kitchen",
+        "Wardrobes",
+        "Staircase Design",
+        "Terrace Garden",
+        "Solar Panels"
+      ],
+      "duration": "9 months",
+      "area": "2800 sq ft",
+      "budget": "₹60-65 Lakhs",
+      "client": "Mr. Kiran Patel",
+      "testimonial": "Every detail was handled perfectly. Worth every penny spent!"
+    }
+  ]
+}
