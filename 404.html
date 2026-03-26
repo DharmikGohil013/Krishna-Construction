@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found | Krishna Construction</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/png" href="aaa.png">
+  <style>
+    .error-container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, rgba(26, 26, 26, 0.95), rgba(47, 47, 47, 0.9)),
+                  url('https://images.unsplash.com/photo-1541976590-713941681591?q=80&w=2000') center/cover;
+    }
+    .error-content {
+      max-width: 600px;
+      color: white;
+    }
+    .error-code {
+      font-size: 8rem;
+      font-weight: 900;
+      background: linear-gradient(135deg, #FFD700, #FF4500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1rem;
+      line-height: 1;
+    }
+    .error-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: white;
+    }
+    .error-text {
+      font-size: 1.125rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+    .error-buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #FFD700, #FF4500);
+      color: #2F2F2F;
+    }
+    .btn-secondary {
+      background: transparent;
+      color: white;
+      border: 2px solid #FFD700;
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="error-content">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Page Not Found</h1>
+      <p class="error-text">
+        Oops! The page you're looking for doesn't exist. It might have been moved or deleted.
+      </p>
+      <div class="error-buttons">
+        <a href="index.html" class="btn btn-primary">Go to Homepage</a>
+        <a href="projects.html" class="btn btn-secondary">View Projects</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

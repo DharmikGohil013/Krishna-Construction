@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Read testimonials and reviews from our satisfied clients. Krishna Construction has 25+ years of experience delivering quality construction projects in Surat.">
+  <meta name="keywords" content="construction reviews surat, client testimonials, customer feedback, Krishna Construction reviews">
+  <meta name="author" content="Krishna Construction">
+  <link rel="canonical" href="https://yourdomain.com/testimonials.html">
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Client Testimonials | Krishna Construction">
+  <meta property="og:description" content="See what our clients say about our construction services">
+  <meta property="og:image" content="https://yourdomain.com/Q.png">
+  <meta property="og:url" content="https://yourdomain.com/testimonials.html">
+
+  <title>Client Testimonials | Krishna Construction</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/testimonials.css">
+  <link rel="icon" type="image/png" href="aaa.png">
+</head>
+<body>
+  <!-- Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/919979456744" class="whatsapp-float" aria-label="Contact us on WhatsApp" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+    <svg class="progress-ring" width="50" height="50">
+      <circle class="progress-ring-circle" stroke="#FFD700" stroke-width="3" fill="transparent" r="22" cx="25" cy="25"/>
+    </svg>
+  </button>
+
+  <!-- Navigation -->
+  <nav id="mainNav" role="navigation">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="Q.png" alt="Krishna Construction Logo" width="60" height="60">
+        </a>
+      </div>
+
+      <div class="hamburger" onclick="toggleMenu()" aria-label="Toggle menu" role="button" tabindex="0">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#workers">Team</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="testimonials.html" class="active">Testimonials</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="quote.html" class="nav-cta">Get Quote</a></li>
+      </ul>
+
+      <div class="language-selector">
+        <select id="language" aria-label="Select Language">
+          <option value="en">English</option>
+          <option value="gu">ગુજરાતી</option>
+          <option value="hi">हिंदी</option>
+        </select>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="header-overlay"></div>
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <i class="fas fa-chevron-right"></i>
+          <span>Testimonials</span>
+        </div>
+        <h1>Client Testimonials</h1>
+        <p>Hear from our satisfied clients about their experience</p>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="testimonial-stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="stat-content">
+              <h3 id="avgRating">5.0</h3>
+              <p>Average Rating</p>
+            </div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <div class="stat-content">
+              <h3 id="totalReviews">0</h3>
+              <p>Total Reviews</p>
+            </div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-icon">
+              <i class="fas fa-thumbs-up"></i>
+            </div>
+            <div class="stat-content">
+              <h3 id="recommendationRate">98%</h3>
+              <p>Recommendation Rate</p>
+            </div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="stat-content">
+              <h3>25+</h3>
+              <p>Years Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+      <div class="container">
+
+        <!-- Featured Testimonials -->
+        <div class="section-header">
+          <span class="section-label">Featured Reviews</span>
+          <h2>What Our Clients Say</h2>
+        </div>
+
+        <div class="featured-testimonials" id="featuredTestimonials">
+          <!-- Featured testimonials will be loaded here -->
+        </div>
+
+        <!-- All Testimonials -->
+        <div class="section-header" style="margin-top: 4rem;">
+          <h2>All Client Reviews</h2>
+        </div>
+
+        <div class="testimonials-grid" id="testimonialsGrid">
+          <!-- All testimonials will be loaded here -->
+        </div>
+
+        <!-- Load More Button -->
+        <div class="load-more-container" id="loadMoreContainer" style="display: none;">
+          <button class="cta-button primary" id="loadMoreBtn">
+            Load More Reviews
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Review Form CTA -->
+    <section class="review-cta">
+      <div class="container">
+        <div class="review-cta-content">
+          <div class="review-cta-text">
+            <h2>Worked With Us?</h2>
+            <p>Share your experience and help others make informed decisions</p>
+          </div>
+          <a href="index.html#contact" class="cta-button primary large">
+            <i class="fas fa-star"></i> Write a Review
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-banner">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Ready to Start Your Project?</h2>
+          <p>Join hundreds of satisfied clients who trust Krishna Construction</p>
+          <div class="cta-buttons">
+            <a href="quote.html" class="cta-button primary large">Get Free Quote</a>
+            <a href="index.html#contact" class="cta-button secondary large">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <img src="Q.png" alt="Krishna Construction" class="footer-logo">
+          <p>Building excellence since 1995. Your trusted partner for all construction needs in Surat and beyond.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://wa.me/919979456744" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="index.html#services">RCC Work</a></li>
+            <li><a href="index.html#services">Waterproofing</a></li>
+            <li><a href="index.html#services">Tiling</a></li>
+            <li><a href="index.html#services">Plumbing</a></li>
+            <li><a href="index.html#services">Electrical</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-phone"></i> <a href="tel:+919979456744">+91 99794 56744</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:dharmikgohil395003@gmail.com">dharmikgohil395003@gmail.com</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> Surat, Gujarat</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Krishna Construction. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/testimonials.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "Krishna Construction",
+  "short_name": "Krishna",
+  "description": "Premier construction services in Surat - RCC, Waterproofing, Tiling, and complete building solutions since 1995",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2F2F2F",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "aaa.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "aaa.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["construction", "business", "services"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "screenshots": []
+}

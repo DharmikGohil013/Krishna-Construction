@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Disallow crawling of certain directories
+Disallow: /data/
+Disallow: /js/
+Disallow: /css/
