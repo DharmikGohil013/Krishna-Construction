@@ -6,7 +6,7 @@
 // Translation Data (Enhanced with new keys)
 const translations = {
   en: {
-    title: "Krishna Construction | Premier Building Services in Surat",
+    title: "Krishna Construction | Best Building Contractor in Surat",
     nav_home: "Home",
     nav_about: "About",
     nav_services: "Services",
